@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Planning Poker</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+	<link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css" rel="stylesheet">
+</head>
+<body>
+	Name: <input type="text" name="usersName" id="usersName"><p></p>
+	
+	<label for="estimate">How many points? </label>
+    <select name="estimate" id="estimate">
+      <optgroup label="Other">
+        <option value="notReady">Not Ready</option>
+        <option value="iDontKnow">I Don't know</option>
+		<option value="break">Needs to be broken down</option>
+      </optgroup>
+      <optgroup label="Fibonacci">
+        <option value="fib1">1</option>
+        <option value="fib2">2</option>
+		<option value="fib3">3</option>
+		<option value="fib5">5</option>
+      </optgroup>
+    </select>
+
+	<div id="SelectionTable"></div>
+	<p>	
+	</p>
+	Debug
+	<p>
+	</p>
+
+
+	<div id="CurrentTable"></div>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+
+	<script type="text/javascript" 
+        src="http://localhost:8000/faye/client.js">
+        </script>
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jquery-ui.js"></script>
+	<script src="pp.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+</body>
+</html>
