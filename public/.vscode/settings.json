@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/45939828-8836-4f1d-ae9b-b4638ad46211/AppServices/subscriptions/45939828-8836-4f1d-ae9b-b4638ad46211/resourceGroups/VerySimplePlanningPoker/providers/Microsoft.Web/sites/VerySimplePlanningPoker",
+    "appService.deploySubpath": "."
+}

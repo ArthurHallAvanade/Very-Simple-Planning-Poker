@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "start": "server.js"
+  },
+  "name": "very-simple-planning-poker",
+  "version": "1.0.0",
+  "description": "Very Simple Planning poker",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurHallAvanade/Very-Simple-Planning-Poker.git"
+  },
+  "author": "Arthur Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurHallAvanade/Very-Simple-Planning-Poker/issues"
+  },
+  "homepage": "https://github.com/ArthurHallAvanade/Very-Simple-Planning-Poker#readme",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.18.2",
+    "faye": "^1.4.0",
+    "http": "^0.0.1-security",
+    "serve-static": "^1.15.0"
+  }
+}
